@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="cible.php" method="POST">
+        <h1>CODEWITHRANDOM</h1>
+        <p>Thank you for Being with me</p>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" placeholder="Entrer votre nom!" required><br>
+        <label for="email">E-mail</label><br>
+        <input type="text" id="email" placeholder="Entrer votre email!" required><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" placeholder="Entrer votre mot de passe!" required><br>
+        <label for="password">Repeat password</label><br>
+        <input type="password" id="password" placeholder="Confirmer votre mot de passe!" required><br>
+        <label for="name">Nationalité</label><br>
+        <select name="nationality" id="nationality">
+                    <option value="r_na">Choisir votre nationalité</option>
+                    <optgroup label="Afrique">
+                        <option value="benin">Béninoise</option>
+                        <option value="benin">Nigérienne</option>
+                    </optgroup>
+                    <optgroup label="Europe">
+                        <option value="benin">Belge</option>
+                        <option value="benin">Française</option>
+                    </optgroup>
+                    <optgroup label="Amérique">
+                        <option value="benin">Canadienne</option>
+                        <option value="benin">Chilienne</option>
+                    </optgroup>
+                  
+                  
+                
+        </select>
+        <br>
+        <label for="name">Sexe</label><br>
+        <select name="sexe" id="sexe">
+            <option value="sexe">Choisir votre sexe</option>
+            <option value="sexe">Masculin</option>
+            <option value="sexe">Feminin</option>
+            <option value="sexe">Personnalisé</option>
+           
+        </select><br><br>
+        <button type="submit">Register</button>
+</form>
+    
+</body>
+</html>
